@@ -1,58 +1,80 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# STCTI Alumni Management System
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+A web-based Alumni Management System built for **Saint Theresa College of Tandag, Incorporated (STCTI)**.  
+This project helps organize alumni records, job opportunities, events, donations, announcements, and notifications in one clean and easy-to-use platform.
 
-## About Laravel
+The system is designed for two main users: **Admin** and **Alumni**. Admin users can manage records, approve submissions, verify donations, and publish announcements, while alumni users can update their profiles, view opportunities, submit events, make donations, and stay connected with the school community.
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+## Repository Description
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+A Laravel-based Alumni Management System for Saint Theresa College of Tandag, Incorporated, built as a student web development project using Laravel Breeze, Blade, PHP, MySQL, and XAMPP.
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+## About the Project
 
-## Learning Laravel
+The main goal of this system is to provide a simple but organized platform where STCTI can manage alumni-related information more efficiently. Instead of handling alumni data, events, job posts, and donations manually, this system brings these features together in a structured and secure web application.
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+The project follows Laravel’s MVC structure and uses role-based access so that each user only sees the features they are allowed to use. It also focuses on clean layouts, reusable components, validation, and a responsive interface suitable for both desktop and mobile users.
 
-In addition, [Laracasts](https://laracasts.com) contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+## Key Features
 
-You can also watch bite-sized lessons with real-world projects on [Laravel Learn](https://laravel.com/learn), where you will be guided through building a Laravel application from scratch while learning PHP fundamentals.
+### Admin Features
 
-## Agentic Development
+- Manage alumni accounts and profiles
+- View the alumni network
+- Create and manage job opportunities
+- Approve or reject alumni-submitted job posts
+- Create and manage events
+- Approve or reject alumni-submitted events
+- Review event budget requests
+- Manage event funds
+- Record and verify donations
+- Create and publish announcements
+- Manage system notifications
 
-Laravel's predictable structure and conventions make it ideal for AI coding agents like Claude Code, Cursor, and GitHub Copilot. Install [Laravel Boost](https://laravel.com/docs/ai) to supercharge your AI workflow:
+### Alumni Features
 
-```bash
-composer require laravel/boost --dev
+- Manage personal alumni profile
+- View other alumni profiles
+- View approved job opportunities
+- Submit job opportunities for admin approval
+- View approved events
+- Submit event proposals
+- View event budget status and admin notes
+- Submit donations with proof of payment
+- View donation history and status
+- Read announcements
+- Receive notifications
 
-php artisan boost:install
-```
+## Main Modules
 
-Boost provides your agent 15+ tools and skills that help agents build Laravel applications while following best practices.
+- Alumni Network
+- Opportunities / Job Posts
+- Events
+- Event Funds and Budget Review
+- Donations
+- Announcements
+- Notifications
+- Profile Management
 
-## Contributing
+## Tech Stack
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+- Laravel
+- Laravel Breeze
+- PHP
+- Blade
+- MySQL
+- XAMPP
+- phpMyAdmin
+- HTML
+- CSS
+- JavaScript
 
-## Code of Conduct
+## System Roles
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+### Admin
 
-## Security Vulnerabilities
+The admin has full access to manage the system. This includes reviewing submissions, verifying donations, managing alumni data, and publishing official announcements.
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+### Alumni
 
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+The alumni user has limited access. Alumni can manage their own profile, view approved records, and submit job posts, events, or donations for admin review.
